@@ -1,0 +1,47 @@
+5 + "34"
+// Prediction:534
+// Actual: because the + concatenates both values
+
+5 - "4"
+// Prediction:NaN
+// Actual:Because - can not be used
+
+10 % 5
+// Prediction:0
+// Actual:0 because 10 divided by 5
+
+5 % 10
+// Prediction:5
+// Actual:5 divided by 10 = 5
+
+" " + " "
+// Prediction:"" two spaces
+// Actual:"" 2 spaces
+
+" " + 0
+// Prediction:"0"
+// Actual:+ = concatenates joined by spaces, so = 0
+
+true + true
+// Prediction: 2
+// Actual:true = 1, so true + true = 1+1 =2
+
+true + false
+// Prediction: true = 1 and false = 0
+// Actual:1
+
+false + true
+// Prediction: false = 0 / true = 1
+// Actual:1
+
+false - true
+// Prediction: false = 0 and true = 1 
+// Actual: -1
+
+!true
+// Prediction:False
+// Actual: ! = means the opposite, so False
+
+3 - 4
+// Prediction:-1
+// Actual:because 3-4= -1

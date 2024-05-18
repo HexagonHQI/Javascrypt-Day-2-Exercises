@@ -1,0 +1,61 @@
+typeof(15)
+// Prediction:Number
+// Actual:15 integer / type of backs data type of the value
+
+typeof(5.5)
+// Prediction:Number
+// Actual:5.5 = floating-point number / typeof returns the number for both 5 and the decimal
+
+typeof(NaN)
+// Prediction:Number
+// Actual:NaN = "not a Number" but in JS it is a data type numerical category
+
+typeof("hello")
+// Prediction:String
+// Actual: "Hello" is a word character string data type in JS
+
+typeof(true)
+// Prediction:Boolean
+// Actual:Types of Boolean are "true" or "false"
+
+typeof(1 != 2)
+// Prediction:Boolean
+// Actual:THis expression evaluates to true so it is a Boolean data type
+
+"hamburger" + "s"
+// Prediction: String
+// Actual:The + is used to the old method called concatenates joins strin, so the output is hamburger
+
+"hamburgers" - "s"
+// Prediction:NaN
+// Actual:The - can not be applicable because it will not be defined, that is why it is a Nan
+
+"1" + "3"
+// Prediction:String
+// Actual:+ = concatenates so the output will be 13
+
+"1" - "3"
+// Prediction:NaN
+// Actual: - = NaN , can not be defined because not readable.
+
+"johnny" + 5
+// Prediction:String
+// Actual:The + is a concatenates so it brings up Johnny5
+
+"johnny" - 5
+// Prediction:Nan
+// Actual:- = not readable
+
+99 * "hello"
+// Prediction:NaN
+// Actual:Multiplying a number by a string (meaning number multiplied by a "world") can not be defined
+
+1 != 1
+// Prediction:False
+// Actual:1=1 so outcome is false
+
+1 == "1"
+// Prediction:True
+// Actual:Both values are 1
+
+`console.log(

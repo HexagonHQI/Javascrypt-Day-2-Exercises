@@ -1,0 +1,3 @@
+- First expression: console.log(a + b)=  55 (output) / "a" = 2 do reassigns value of a to 2. 
+-Second expression: console.log(a + b); performs addition again. Prediction: 23. Actual output will also be 23 because the value of "a" has changed. 
+- Third expression: console.log(c); tries to display the value of "c". Prediction: undefined (Correct). Since "c" was declared but not assigned "a" value, its value remains undefined. So output = undefined.
